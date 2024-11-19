@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:  #F8F8F8;
+    font-family: 'Poppins';
+    
+}
+.navbar {
+    background-color: white;
+    width: 230px;
+    height: 100vh;
+    position: fixed;
+    padding-top: 55px;
+    padding-bottom: 30px;
+    overflow: auto;
+}
+.nav-text {
+    text-decoration: none;
+    margin-left: 29px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #013CC6;
+    
+}
+nav {
+    margin-top: 65px;
+    margin-left: 41px;
+    
+}
+ul {
+    list-style: none;
+}
+.nav-li {
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 41px;
+    font-size: 16px;
+    font-weight: 400;
+    color:#131313;
+   
+
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color:#131313;
+    transition: all 0.5s ease-in-out;
+}
+h3:hover {
+    color:  #0B63F8;
+    
+}
+.nav-foot {
+    margin-top: 484px;
+    display: flex;
+    gap: 16px;
+    margin-left: 41px;
+}
+.navbar-footer {
+    font-size: 16px;
+    font-weight: 400;
+    color: #131313;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.navbar-footer:hover {
+    color:  #0B63F8;
+    
+}
+main {
+    margin-left: 16%;
+    padding-left: 41px;
+    max-width: 1129px;
+    padding-top: 56px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 43.9px;
+}
+.header-in {
+    width: 655px;
+    padding-top: 13.9px;
+    padding-left: 20px;
+    padding-bottom: 14.1px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color: white;
+    border: 3px solid rgb(255, 255, 255, 0.2);
+    border-radius: 3px;
+}
+.header-input {
+    border: none;
+    outline: none;
+    color: #ADA7A7;
+    
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.header-input::placeholder {
+    color: #ADA7A7;
+    
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.header-input:checked {
+    border: none;
+}
+.header-imgs {
+    display: flex;
+    gap: 20px;
+}
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 24px;
+}
+.boks {
+    display: flex;
+    justify-content: space-between;
+}
+h2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 16px;
+}
+.input1 {
+    width: 256px;
+    padding: 13px 66px 13px 24px;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255, 0.25);
+    border-radius: 3px;
+}
+.input2 {
+    border: none;
+    outline: none;
+    color: #ADA7A7;
+    
+    font-size: 16px;
+    font-weight: 400;
+}
+.input2::placeholder {
+    color: #ADA7A7;
+    
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.jad {
+    max-width: 1129px;
+    margin-top: 64px;
+    background-color: white;
+    border-radius: 3px;
+    padding-left: 24px;
+}
+
+.boks {
+    padding-right: 24px;
+}
+
+.tr1 {
+ height: 72px;
+ border-bottom: 1px solid #F2F2F2;
+ border-collapse: collapse;
+
+ 
+
+} 
+.tr2 {
+    height: 72px;
+    border-bottom: 5px solid  #F2F2F2;
+    border-collapse: collapse;
+   
+   } 
+td {
+    
+    
+}
+.th1 {
+    text-align: left;
+ font-size: 16px;
+ font-weight: 600;
+ color: #000;
+ padding-left: 24px;
+ padding-right: 107px;
+ 
+}
+.th2 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    padding-right: 105px;
+    
+   }
+.th3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    text-align: left;
+    padding-right: 112px;
+    
+   }
+   .th4 {
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 120px;
+    color: #000;
+    text-align: left;
+    
+   }
+   .th5 {
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 114px;
+    color: #000;
+    text-align: left;
+
+   }
+.th6 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    text-align: left;
+    
+    
+} 
+.td1 {
+    text-align: left;
+    padding-left: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color:  #0B63F8;
+    
+}
+.td2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(0, 0, 0, 0.65);
+}
